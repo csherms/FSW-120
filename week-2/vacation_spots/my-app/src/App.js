@@ -1,13 +1,13 @@
-import React from "react"
-import vacationSpots from "./vacationSpots"
-import Vac from "./Vac"
+import React from "react";
+import vacationSpots from "./vacationSpots";
+import Vac from "./Vac";
 
 
 function App(){
     const a = vacationSpots.map(vac => <Vac key={vac.id} place={vac.place} price={vac.price} time={vac.timeToGo} />)
 
     return (
-        <div>
+        <div className = "stuff">
             {a}
         </div>
     )

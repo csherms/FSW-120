@@ -1,11 +1,12 @@
-import React from "react"
+import React from "react";
+import './styles.css';
 
 function Vac(props){
     return (
         <div>
-            <h2>{props.place}</h2>
-            <h3>{props.price}</h3>
-            <h3>{props.time}</h3>
+            <h1>{props.place}</h1>
+            <h2>{props.price}</h2>
+            <h2>{props.time}</h2>
         <hr/>
     </div>
     )
