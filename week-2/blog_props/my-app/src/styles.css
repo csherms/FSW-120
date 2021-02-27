@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-links{
+    background-color: rgb(175, 214, 250);
+    padding: .5rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px #636363;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: rgb(199, 191, 191);
+    border-radius: 20px;
+}
+
+.header-one{
+    text-align: center;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.header-two{
+    text-align: center;
+    color: white;
+}
+
+.bloglist-container{
+    text-align: center;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.footer-links {
+    color: grey;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#button{
+    background-color: rgb(1, 213, 184);
+    padding: 8px;
+}
+
