@@ -1,0 +1,106 @@
+html, body {
+    text-align: center;
+    background-color: slategray;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: rgb(72, 84, 88);
+    color: white;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+
+
+/* Home Page */
+.home-container {
+    background-image: url("https://lp-seotool.s3.us-west-2.amazonaws.com/task_attachments/NJYIZcSAE5ODTImqJirgg7kunj18e3wK1598976088.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 700px;
+}
+
+
+
+/* About Page */
+.about-container {
+    background-image: url("https://rotorootergreeneville.com/wp-content/uploads/2020/04/b2-1024x683.jpg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 70px;
+    padding-bottom: 175px;
+}
+
+.about-items {
+    margin-top: 100px;
+    margin-right: 950px;
+    padding: 50px;
+    text-align: left;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+.about-items li {
+    padding: 20px;
+}
+
+
+
+/* Services Page */
+.services-container {
+    padding-bottom: 50px;
+}
+
+.services-list {
+    margin-right: 300px;
+    border-radius: 50px;
+    background-color: lightblue;
+}
+
+.services-list li {
+    text-align: left;
+    padding: 20px;
+    list-style: none;
+}
+/* Pics on Services Page */
+.pics-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+}
+
+.pics-container img {
+    box-shadow: 10px 10px rgb(51, 48, 48);
+}
+
+
+
+/* Footer */
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+    background-color: rgb(72, 84, 88);
+    color: white;
+}
+
+.footer-items {
+    list-style: none;
+}
